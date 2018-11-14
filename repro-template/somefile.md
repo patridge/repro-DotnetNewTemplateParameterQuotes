@@ -6,6 +6,13 @@ Template attempting to reproduce an issue with spaces inside escaped quotes in p
 
 When passing in a parameter value that needs matching quotation marks in it, the command fails when there is a space between the quotation marks and produces unexpected results when there is _not_ a space between the quotation marks (no quotation marks in result).
 
+## Reproduction installation
+
+1. Clone this repo.
+1. Navigate to the cloned repo in PowerShell Core.
+1. Install the template locally: `dotnet new --install repro-template`.
+1. Run any of the commands below.
+
 ## Attempts that result in an error message
 
 ### Escaped via back tick with space
