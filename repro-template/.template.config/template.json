@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "repro-param-with-escaped-quotes-containing-space",
+    "author": "Adam Patridge",
+    "classifications": [ "Bug", "Reproduction" ],
+    "name": "Reproduction: template parameter with escaped quotes containing spaces",
+    "shortName": "repro-quotes-spaces",
+    "preferNameDirectory": true,
+    "symbols": {
+        "someparameter": {
+           "description": "A sample symbol for testing escaped quotes with spaces",
+           "type": "parameter",
+           "defaultValue": "This is the default replacement content.",
+           "replaces": "{someparameter}",
+        },
+    },
+}
