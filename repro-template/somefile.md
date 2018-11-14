@@ -123,6 +123,6 @@ something needing escapedquotes (without spaces) in it.
 
 ## Platform
 
-Windows 10 Pro 1803
-.NET Core SDK: v2.1.500 (also tested on v2.1.302)
-PowerShell Core: v6.1.0
+* Windows 10 Pro 1803
+* .NET Core SDK: v2.1.500 (also tested on v2.1.302)
+* PowerShell Core: v6.1.0
